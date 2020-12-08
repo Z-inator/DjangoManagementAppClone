@@ -39,7 +39,6 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'accounts',
     'django_filters',
-    
 ]
 
 MIDDLEWARE = [
@@ -92,9 +91,6 @@ STEPS FOR DJANGO POSTGRESQL DATABASE + AWS RDS
 4 - Create database on AWS
 5 - Connect to live AWS Database with PG admin & Django
 
-'''
-
-'''
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
